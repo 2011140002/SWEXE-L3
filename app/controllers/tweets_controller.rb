@@ -26,8 +26,9 @@ class TweetsController < ApplicationController
   end
   
   def update
-    @tweet = Tweet.find(params[:id])
-    if @tweet.update(message: params[:tweet][:message])
+    image = params[:tweet][:image].read
+    tweet = Tweet.find(params[:id])
+    if tweet.update(message: params[:tweet][:message], image: image)
       redirect_to '/'
     else
       render 'edit'
