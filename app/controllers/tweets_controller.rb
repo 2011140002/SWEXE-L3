@@ -12,16 +12,18 @@ class TweetsController < ApplicationController
     redirect_to '/'
   end
   
+  def edit
+    @tweet = Tweet.find(id = params[:tweet][:id])
+  end
+  
   def update
     
   end
   
-  def edit
-    
-  end
-  
   def destroy
-    
+    tweet = Tweet.find(params[:id])
+    tweet.destroy
+    redirect_to '/'
   end
   
 end
