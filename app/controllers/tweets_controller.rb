@@ -8,7 +8,8 @@ class TweetsController < ApplicationController
   end
   
   def create
-    @tweet  = Tweet.new(message: params[:tweet][:message], tdate: Time.current, image: params[:tweet][:image])
+    image = params[:tweet][:image].read
+    @tweet  = Tweet.new(message: params[:tweet][:message], tdate: Time.current, image: image)
     if @tweet.save
       redirect_to '/'
     else
@@ -37,6 +38,11 @@ class TweetsController < ApplicationController
     tweet = Tweet.find(params[:id])
     tweet.destroy
     redirect_to '/'
+  end
+  
+  def get_image
+    tweet = Tweet.find(params[:id])
+    send_data tweet.image, disposition: :inline, type: 'image/png'
   end
   
 end
