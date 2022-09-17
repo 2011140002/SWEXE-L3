@@ -25,9 +25,10 @@ class TweetsController < ApplicationController
   end
   
   def update
-    tweet = Tweet.update(message: params[:tweet][:message])
-    flash[:notice] = tweet.errors.full_messages
-    
+    @tweet = Tweet.update(message: params[:tweet][:message])
+    if @tweet.errors.full_messages != nil:
+      flash[:notice] = @tweet.errors.full_messages
+    end
     redirect_to '/'
   end
   
