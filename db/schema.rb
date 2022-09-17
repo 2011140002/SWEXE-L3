@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_09_17_172846) do
+ActiveRecord::Schema.define(version: 2022_09_17_174210) do
 
   create_table "tweets", force: :cascade do |t|
     t.string "message"
     t.datetime "tdate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "image"
+    t.binary "image"
   end
 
 end
