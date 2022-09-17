@@ -1,1 +1,9 @@
-<p>create.html</p>
+<p>new.html</p>
+
+<%= form_for @tweet , url: {action: :create} do |t| %>
+
+<%= f.label :message, 'メッセージ' %>
+<%= f.text_field :message %>
+<% f.tdate = Time.current %>
+
+<% end %>
