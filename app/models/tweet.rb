@@ -1,5 +1,5 @@
 class Tweet < ApplicationRecord
     validates :message, presence: true
-    validates :message, length: { maximun: 140 }
+    validates :message, length: { maximum: 140 }
 end
 
