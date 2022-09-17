@@ -8,7 +8,11 @@ class TweetsController < ApplicationController
   end
   
   def create
-    image = params[:tweet][:image].read
+    if params[:tweet][:image] != nil
+      image = params[:tweet][:image].read
+    else
+      image = params[:tweet][:image]
+    end
     @tweet  = Tweet.new(message: params[:tweet][:message], tdate: Time.current, image: image)
     if @tweet.save
       redirect_to '/'
@@ -26,7 +30,10 @@ class TweetsController < ApplicationController
   end
   
   def update
-    image = params[:tweet][:image].read
+    if params[:tweet][:image] != nil
+      image = params[:tweet][:image].read
+    else
+      image = params[:tweet][:image]
     tweet = Tweet.find(params[:id])
     if tweet.update(message: params[:tweet][:message], image: image)
       redirect_to '/'
