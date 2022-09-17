@@ -34,6 +34,7 @@ class TweetsController < ApplicationController
       image = params[:tweet][:image].read
     else
       image = params[:tweet][:image]
+    end
     tweet = Tweet.find(params[:id])
     if tweet.update(message: params[:tweet][:message], image: image)
       redirect_to '/'
