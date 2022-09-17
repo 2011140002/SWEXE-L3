@@ -1,5 +1,14 @@
 <h1>Tweet編集</h1>
 
+<% if @tweet.errors.any? %>
+  <div>
+    <ul style="color: red">
+      <% @tweet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
 
 <%= form_for @tweet, url: {action: :update} do |t| %>
 
