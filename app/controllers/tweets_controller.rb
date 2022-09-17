@@ -13,6 +13,7 @@ class TweetsController < ApplicationController
       redirect_to '/'
     else
       render 'new'
+    end
   end
   
   def show
