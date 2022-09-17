@@ -26,7 +26,7 @@ class TweetsController < ApplicationController
   
   def update
     tweet = Tweet.update(message: params[:tweet][:message])
-    ActiveRecord::RecordInvalid => e
+    e = ActiveRecord::RecordInvalid
       flash[:notice] = e
     redirect_to '/'
   end
