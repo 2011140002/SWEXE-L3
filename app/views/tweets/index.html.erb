@@ -11,7 +11,9 @@
 <% @tweets.each do |t| %>
 
 <%= t.message %><br>
+<% if t.image != nul %>
 <%= image_tag "/get_image/#{t.id}", :size => '70x70' %><br>
+<% end %>
 (<%= (Time.current - t.tdate).floor / 60 %>分前)
 <%= link_to '削除', "/tweets/#{t.id}", method: :delete %>
 <%= link_to '編集', "/tweets/#{t.id}/edit" %>
