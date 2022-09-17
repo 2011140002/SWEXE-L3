@@ -25,8 +25,11 @@ class TweetsController < ApplicationController
   end
   
   def update
-    tweet = Tweet.update(message: params[:tweet][:message])
-    redirect_to '/'
+    if tweet = Tweet.update(message: params[:tweet][:message])
+      redirect_to '/'
+    else
+      render 'edit'
+    end
   end
   
   def destroy
