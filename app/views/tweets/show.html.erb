@@ -3,5 +3,6 @@
 メッセージ：<br><%= @tweet.message %><br>
 <br>
 投稿日時：<br><%= l @tweet.tdate, format: :short %><br>
+<%= image_tag "/get_image/#{@tweet.id}", :size => '70x70' %><br>
 <br>
 <%= link_to '戻る', '/' %>
