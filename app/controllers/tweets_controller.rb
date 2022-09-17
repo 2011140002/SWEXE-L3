@@ -29,6 +29,7 @@ class TweetsController < ApplicationController
       redirect_to '/'
     else
       render 'edit'
+    end
   end
   
   def destroy
