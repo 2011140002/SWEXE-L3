@@ -4,7 +4,7 @@
 <% @tweets.each do |t| %>
 
 <%= t.message %><br>
-<%= l Time.current-t.tdate %>
+<%= l t.tdate %>
 <%= link_to '削除', "/tweets/#{t.id}", method: :delete %>
 <%= link_to '編集', "/tweets/#{t.id}/edit" %>
 <%= link_to '詳細', "/tweets/#{t.id}" %>
