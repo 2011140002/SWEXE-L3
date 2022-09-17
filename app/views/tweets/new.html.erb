@@ -14,7 +14,13 @@
 <%= t.label :message, 'メッセージ' %>
 <%= t.text_field :message %>
 
+<%= t.label :tweet_image %>
+<%= t.file_field :tweet_image %>
+<%= t.hidden_field :tweet_image_cache %> 
+<!--保存が失敗した場合のために画像情報をキャッシュしておく-->
+
 <%= t.submit '投稿' %>
+
 
 <% end %>
 

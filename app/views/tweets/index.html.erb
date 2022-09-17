@@ -1,5 +1,14 @@
 <h1>Tweet一覧</h1>
 
+<!--アップローダーファイル-->
+
+<% version :thumb do %>
+   <% process resize_to_fit: [200, 200] %>
+<% end %>
+<% version :thumb50 do %>
+  <% process resize_to_fit: [100, 100] %>
+<% end %>
+
 <% if flash[:notice] %>
 <%= flash[:notice] %>
 <% end %>
@@ -7,6 +16,7 @@
 <% @tweets.each do |t| %>
 
 <%= t.message %><br>
+<%= image_tag t.image.thumb.url %><br>
 (<%= (Time.current - t.tdate).floor / 60 %>分前)
 <%= link_to '削除', "/tweets/#{t.id}", method: :delete %>
 <%= link_to '編集', "/tweets/#{t.id}/edit" %>
