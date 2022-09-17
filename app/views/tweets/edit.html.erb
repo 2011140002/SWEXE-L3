@@ -1,1 +1,8 @@
 <p>edit.html</p>
+
+<%= form_for @tweet, url: {action: :update} do |t| %>
+
+<% t.label :message %>
+<% t.text_field :message %>
+
+<% end %>

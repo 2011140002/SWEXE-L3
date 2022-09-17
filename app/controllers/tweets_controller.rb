@@ -17,7 +17,7 @@ class TweetsController < ApplicationController
   end
   
   def update
-    
+    tweet = Tweet.update(message: params[:tweet][:message])
   end
   
   def destroy
