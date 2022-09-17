@@ -2,7 +2,7 @@
 
 <%= form_for @tweet, url: {action: :update} do |t| %>
 
-<% t.label :message, 'メッセージ' %>
-<% t.text_field :message %>
+<%= t.label :message, 'メッセージ' %>
+<%= t.text_field :message %>
 
 <% end %>
