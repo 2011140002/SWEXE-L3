@@ -4,6 +4,7 @@
 <% @tweets.each do |t| %>
 
 <%= t.message %><br>
+(<%= (Time.current - t.tdate).floor / 60 %>分前)
 <%= l t.tdate, format: :short %>
 <%= link_to '削除', "/tweets/#{t.id}", method: :delete %>
 <%= link_to '編集', "/tweets/#{t.id}/edit" %>
