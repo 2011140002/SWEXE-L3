@@ -12,10 +12,10 @@
 <%= form_for @tweet , url: {action: :create} do |t| %>
 
 <%= t.label :message, 'メッセージ' %>
-<%= t.text_field :message %>
+<%= t.text_field :message %><br>
 
-<%= t.label :tweet_image %>
-<%= t.file_field :tweet_image %>
+<%= t.label :tweet_image, '画像を選択' %>
+<%= t.file_field :tweet_image %><br>
 
 <%= t.submit '投稿' %>
 
