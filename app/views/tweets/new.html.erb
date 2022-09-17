@@ -2,8 +2,8 @@
 
 <%= form_for @tweet , url: {action: :create} do |t| %>
 
-<%= f.label :message, 'メッセージ' %>
-<%= f.text_field :message %>
-<% f.tdate = Time.current %>
+<%= t.label :message, 'メッセージ' %>
+<%= t.text_field :message %>
+<% t.tdate = Time.current %>
 
 <% end %>
