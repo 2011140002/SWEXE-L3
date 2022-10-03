@@ -15,7 +15,7 @@ class TweetsController < ApplicationController
     end
     @tweet  = Tweet.new(message: params[:tweet][:message], tdate: Time.current, image: image)
     if @tweet.save
-      redirect_to '/'
+      redirect_to root_path
     else
       render 'new'
     end
@@ -37,7 +37,7 @@ class TweetsController < ApplicationController
     end
     @tweet = Tweet.find(params[:id])
     if @tweet.update(message: params[:tweet][:message], image: image)
-      redirect_to '/'
+      redirect_to root_path
     else
       render 'edit'
     end
@@ -46,7 +46,7 @@ class TweetsController < ApplicationController
   def destroy
     tweet = Tweet.find(params[:id])
     tweet.destroy
-    redirect_to '/'
+    redirect_to root_path
   end
   
   def get_image
