@@ -64,7 +64,7 @@
   background: linear-gradient(to right bottom, #c71585, #ffc0cb);
 }
  .image_circle {
-  padding: 2%;
+  margin: 2%;
   height: 50px;
   border-radius:50%;
   background-image: url("yume86.png");
