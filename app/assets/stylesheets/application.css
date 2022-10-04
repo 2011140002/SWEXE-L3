@@ -16,9 +16,9 @@
  .header{
      height: 50px;
  }
+ 
 .col{
-     padding-left: 10%;
-     padding-right: 10%;
+     padding: 20px;
  }
  
  .image_border {
