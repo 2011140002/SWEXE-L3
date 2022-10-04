@@ -22,18 +22,18 @@
      
  }
  
-.tweets{
+.tweets {
     border: solid 1px #dcdcdc;
     padding: 10px;
     padding-bottom: 10px;
 }
 
 
-.message{
+.message {
     padding: 5px;
 }
  
-.edit{
+.edit {
     float: right;
 } 
 
