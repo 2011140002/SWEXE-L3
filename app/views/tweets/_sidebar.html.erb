@@ -3,6 +3,9 @@
         <%= image_tag "ホーム.png", :size => '20x20' %>
         <%= link_to 'ホーム', root_path %>
     </div>
+    <%= link_to(root_path) do %>
+　    <span class="btn_home"></span>
+    <% end %>
     <div><%= image_tag "シャープ.png", :size => '20x20' %>　 話題を検索</div>
     <div><%= image_tag "ベル.png", :size => '20x20' %>　 通知</div>
     <div><%= image_tag "メール.png", :size => '20x20' %>　 メッセージ</div>
