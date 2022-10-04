@@ -17,6 +17,7 @@
     <col>ユーザー名</col>
     <col>・</col>
     <col>投稿日</col>
+    
 </div>
 
 
@@ -24,7 +25,7 @@
 
 <%= t.message %><br>
 <% if t.image != nil %>
-<%= image_tag "/get_image/#{t.id}", :size => '70x70' %><br>
+<%= image_tag "/get_image/#{t.id}",  %><br>
 <% end %>
 (<%= (Time.current - t.tdate).floor / 60 %>分前)
 <%= link_to '削除', tweet_path(t.id), method: :delete %>
