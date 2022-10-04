@@ -54,6 +54,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     max-width: 100px;
     padding: 6px 25px;
     background: #dcdcdc;

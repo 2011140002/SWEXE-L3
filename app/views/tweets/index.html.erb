@@ -19,7 +19,7 @@
         <col>@ユーザー名</col>
         <col>・</col>
         <col><%= l t.tdate , format: :short %></col>
-        <col><div class="buttonshow"><%= link_to '詳細', tweet_path(t.id) %></div></col>
+        
     
     </div>
     <div class="contentE">
@@ -45,7 +45,7 @@
         <div class="grid-item2 grid-item23">
             <%= image_tag "ハート.png", :size => '20x20' %></div>
         <div class="grid-item2 grid-item24"></div>
-        <div class="grid-item2 grid-item25"></div>
+        <div class="grid-item2 grid-item25"><%= link_to '詳細', tweet_path(t.id) %></div>
     </div>
     
     
