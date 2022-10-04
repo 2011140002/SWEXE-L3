@@ -33,35 +33,16 @@
     </col>
     <col>
         <%= link_to(edit_tweet_path(@tweet.id)) do %>
-            <span class="btn_show">  編集  </span>
+            <span class="btn_show">編集</span>
         <% end %>
     </col>
     <col>
         <%= link_to(tweet_path(@tweet.id), method: :delete) do %>
-            <span class="btn_show">  削除  </span>
+            <span class="btn_show">削除</span>
         <% end %>
     </col>
 </div>
 
-<div class="grid-container3">
-    <div class="grid-item3 grid-item31">
-        <%= link_to(root_path) do %>
-            <span class="btn_show">  戻る  </span>
-        <% end %>
-    </div>
-    <div class="grid-item2 grid-item32">
-        <%= link_to(edit_tweet_path(@tweet.id)) do %>
-            <span class="btn_show">  編集  </span>
-        <% end %>
-    </div>
-    <div class="grid-item2 grid-item33">
-        <%= link_to(tweet_path(@tweet.id), method: :delete) do %>
-            <span class="btn_show">  削除  </span>
-        <% end %>
-    </div>
-    <div class="grid-item2 grid-item34"></div>
-    <div class="grid-item2 grid-item35"></div>
-    <div class="grid-item2 grid-item36"></div>
-</div>
+
 
 
