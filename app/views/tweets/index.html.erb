@@ -8,6 +8,7 @@
 
 <% @tweets.each do |t| %>
 <div class="tweet">
+    <div>
     <div class="contentC">
         <div class="image_border">
             <div class="image_circle"></div>
@@ -19,6 +20,7 @@
         <col>・</col>
         <col><%= l t.tdate , format: :short %></col>
     
+    </div>
     </div>
     <div class="contentE">
 
