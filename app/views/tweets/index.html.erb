@@ -7,11 +7,15 @@
 <% end %>
 
 <% @tweets.each do |t| %>
-<div class="image_border">
-    <div class="image_circle">
-    
+<col>
+    <div class="image_border">
+        <div class="image_circle">
+        </div>
     </div>
-</div>
+</col>
+<col>名前</col>
+<col>ユーザー名</col>
+
 
 <%= t.message %><br>
 <% if t.image != nil %>
