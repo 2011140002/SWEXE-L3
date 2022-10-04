@@ -17,7 +17,7 @@
 <%= t.label :image, '画像を選択' %>
 <%= t.file_field :image %><br>
 <br>
-<%= button_to '戻る', root_path, {method: :get} ,class: "btn"%>
+<%= link_to '戻る', root_path, {method: :get} ,class: "btn"%>
 <%= t.submit '投稿' ,class: "btn" %>
 
 
