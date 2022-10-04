@@ -23,8 +23,8 @@
 
         <%= t.text_area :message , class: "text_form"%><br>
         <%= t.file_field :image , class: "image_form"%><br><br>
-        <%= link_to '戻る', root_path, {method: :get, class: "btn_edit"} %>
 
         <%= t.submit '決定' ,class: "btn_edit" %>
     <% end %>
 </div>
+<%= link_to '戻る', root_path, {method: :get, class: "btn_edit"} %>
