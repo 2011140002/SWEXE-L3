@@ -18,12 +18,13 @@
     <!--</div>-->
     
     <!--<div class="contentD">-->
+    <div class="account">
     <col><%= image_tag "twitter.png" , :size=>'50x50' %></col>
         <col>名前</col>
         <col>@ユーザー名</col>
         <col>・</col>
         <col><%= l t.tdate , format: :short %></col>
-
+    </div>
         
             <div class="message"><%= t.message %></div>
             <% if t.image != nil %>
