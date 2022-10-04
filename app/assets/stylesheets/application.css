@@ -14,7 +14,8 @@
  *= require_self
  */
  .header{
-     height: 100px;
+     height: 50px;
+     text-align: center;
  }
  
  .image_border {
