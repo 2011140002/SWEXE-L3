@@ -9,15 +9,16 @@
 <% @tweets.each do |t| %>
 
 <div class="tweets">
-    <div class="contentC">
-        <div class="image_border">
-            <div class="image_circle">
+    <!--<div class="contentC">-->
+    <!--    <div class="image_border">-->
+    <!--        <div class="image_circle">-->
                 
-            </div>
-        </div>
-    </div>
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
     
-    <div class="contentD">
+    <!--<div class="contentD">-->
+    <col><%= image_tag "twitter.png" , :size=>'50x50' %></col>
         <col>名前</col>
         <col>@ユーザー名</col>
         <col>・</col>
@@ -49,7 +50,7 @@
                 <div class="grid-item2 grid-item25"></div>
             </div>
         
-    </div>
+    <!--</div>-->
 </div>
 <% end %>
 
