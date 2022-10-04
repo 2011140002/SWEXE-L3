@@ -13,6 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ .sidebar{
+     padding: 15px;
+ }
+ 
+ .tweet{
+    border: solid 1px #dcdcdc;
+    padding: 10px;
+}
  
  .grid-item {
 	font-size: 13px;
@@ -79,10 +87,7 @@
 	
 }
 
-.tweet{
-    border: solid 1px #dcdcdc;
-    padding: 10px;
-}
+
  .header {
      height: 50px;
  }
