@@ -42,7 +42,7 @@
 .grid-container {
 	display: grid;
 	grid-template-rows: 25px 25px 25px 25px;
-	grid-template-columns: 200px 200px 200px 200px;
+	grid-template-columns: 140px 140px 140px 140px;
 	
 	/*--以下装飾--*/
 	background-color: #ffffff;
