@@ -20,7 +20,7 @@
 	text-align: center;
 	color: #ffffff;
 	background-color: #1ece50; /*--各アイテム 背景色のみ変更しております--*/
-	padding: 30px;
+	padding: 10px;
 	box-sizing: border-box;
 }
 .grid-itemA {
