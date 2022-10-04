@@ -22,7 +22,7 @@
      
  }
  
- .tweets{
+ .tweet{
     border: solid 1px #dcdcdc;
     padding: 10px;
     padding-bottom: 10px;
@@ -197,4 +197,3 @@
   float: right;
   width: 90%;
 }
-
