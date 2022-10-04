@@ -45,6 +45,41 @@
 	
 }
 
+.grid-item2 {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	background-color: #ffffff; /*--各アイテム 背景色のみ変更しております--*/
+	padding: 10px;
+	box-sizing: border-box;
+}
+.grid-item21 {
+	grid-row: 1 ;
+	grid-column: 1 / 2;
+}
+.grid-item22 {
+	grid-row: 1 ;
+	grid-column: 2 / 3;
+}
+.grid-item23 {
+	grid-row: 1 ;
+	grid-column: 3 / 4;
+}
+.grid-item24 {
+	grid-row: 1 ;
+	grid-column: 4 / 5;
+}
+.grid-item25 {
+	grid-row: 1 ;
+	grid-column: 5 / 6;
+}
+.grid-container2 {
+	display: grid;
+	border: solid 1px #dcdcdc;
+	
+}
+
 .tweet{
     border: solid 1px #dcdcdc;
 }
