@@ -17,6 +17,9 @@
      padding: 15px;
      text-align: center;
  }
+ .sidebar div{
+     padding: 15px;
+ }
  
  .tweet{
     border: solid 1px #dcdcdc;
