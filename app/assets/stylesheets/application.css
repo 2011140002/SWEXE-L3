@@ -27,7 +27,7 @@
 }
  
 .buttonhome {
-    position: left;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
     max-width: 100px;
     padding: 6px 25px;
     background: #dcdcdc;
-    color: #FFF;
+    color: black;
     transition: 0.3s ease-in-out;
     font-weight: 500;
     border-radius: 100px;
