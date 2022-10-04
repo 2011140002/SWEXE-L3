@@ -27,7 +27,9 @@
 <%= t.label :image, '画像を選択' %>
 <%= t.file_field :image %><br>
 
-<%= t.submit '修正' %>
+%= link_to '戻る', root_path, {method: :get, class: "btn"} %>
+
+<%= t.submit '決定' ,class: "btn" %>
 
 
 <% end %>
