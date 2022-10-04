@@ -17,6 +17,10 @@
      height: 50px;
      text-align: center;
  }
+ .header menu{
+     padding-left: 5%;
+     padding-right: 5%;
+ }
  
  .image_border {
   width: 50px;
