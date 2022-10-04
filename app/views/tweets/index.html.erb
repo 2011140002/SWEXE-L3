@@ -46,8 +46,11 @@
             <%= image_tag "ハート.png", :size => '20x20' %></div>
         <div class="grid-item2 grid-item24"></div>
         <div class="grid-item2 grid-item25">
-            <%= link_to '詳細', tweet_path(t.id) %>
-        <%= image_tag "三点リーダー.png", :size => '20x20' %></div>
+            <div class="buttonhome">
+                <%= image_tag "ホーム.png", :size => '20x20' %>
+                <%= link_to 'ホーム', root_path %>
+            </div>
+        </div>
     </div>
     
     
