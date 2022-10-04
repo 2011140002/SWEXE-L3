@@ -35,9 +35,9 @@
                 <div class="grid-item2 grid-item23">
                     <%= image_tag "ハート.png", :size => '20x20' %></div>
                 <div class="grid-item2 grid-item24">
-                    <div class="buttonshow">
-                        <%= link_to '詳細', tweet_path(t.id) %>
-                    </div>
+                    <%= link_to(tweet_path(t.id)) do %>
+                        <span class="btn_home">　詳細　</span>
+                    <% end %>
                 </div>
                 <div class="grid-item2 grid-item25"></div>
             </div>
