@@ -28,15 +28,15 @@
 	grid-column: 1 / 2;
 }
 .grid-itemB {
-	grid-row: 1 / 4;
+	grid-row: 1 ;
 	grid-column: 2 / 4;
 }
 .grid-itemC {
-	grid-row: 1 / 4;
+	grid-row: 1 ;
 	grid-column: 4 / 5;
 }
 .grid-itemD {
-	grid-row: 1 / 4;
+	grid-row: 1 ;
 	grid-column: 5 / 6;
 }
 .grid-container {
