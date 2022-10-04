@@ -50,6 +50,20 @@
     border-radius: 100px;
     
 }
+.buttonshow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100px;
+    padding: 6px 25px;
+    background: #dcdcdc;
+    color: black;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    border-radius: 100px;
+    
+}
 .buttontweet {
     position: relative;
     display: flex;
