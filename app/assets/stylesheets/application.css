@@ -16,6 +16,8 @@
  .header{
      height: 50px;
      text-align: center;
+     padding-left: 10%;
+     padding-right: 10%;
  }
  col .header_menu{
      padding-left: 10%;
