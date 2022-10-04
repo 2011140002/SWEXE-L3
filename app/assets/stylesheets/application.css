@@ -35,3 +35,13 @@
   float: right;
   width: 70%;
 }
+
+.contentC {
+  float: left;
+  width: 30%;
+}
+
+.contentD {
+  float: right;
+  width: 70%;
+}
