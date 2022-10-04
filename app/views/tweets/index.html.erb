@@ -30,6 +30,12 @@
     <% if t.image != nil %>
     <%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
     <% end %>
+    <div class="contentD">
+        <col><%= link_to '削除', tweet_path(t.id), method: :delete %></col>
+        <col><%= link_to '編集', edit_tweet_path(t.id) %></col>
+        <col><%= link_to '詳細', tweet_path(t.id) %></col>
+    
+    </div>
     <!--(<% (Time.current - t.tdate).floor / 60 %>分前)-->
     <!--<%= link_to '削除', tweet_path(t.id), method: :delete %>-->
     <!--<%= link_to '編集', edit_tweet_path(t.id) %>-->
