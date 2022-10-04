@@ -19,9 +19,6 @@
  }
  .sidebar div{
      padding: 10px;
-     display: flex;
-     margin: 0 auto;
-     padding: 6px 25px;
      
  }
  
@@ -74,7 +71,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 240px;
+    max-width: 100px;
     padding: 6px 25px;
     background: #6bb6ff;
     color: #FFF;
