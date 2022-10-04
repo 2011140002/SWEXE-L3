@@ -13,11 +13,11 @@
  *= require_tree .
  *= require_self
  */
- .header{
+ .header {
      height: 50px;
  }
  
-col{
+.header_menu {
      padding-left: 20px;
      padding-right: 20px;
  }
