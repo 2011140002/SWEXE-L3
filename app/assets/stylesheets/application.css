@@ -32,12 +32,12 @@
 	grid-column: 2 / 3;
 }
 .grid-itemC {
-	grid-row: 3 / 4;
+	grid-row: 1 / 4;
 	grid-column: 3 / 4;
 }
 .grid-itemD {
-	grid-row: 4 / 4;
-	grid-column: 4 / 4;
+	grid-row: 1 / 4;
+	grid-column: 4 / 5;
 }
 .grid-container {
 	display: grid;
