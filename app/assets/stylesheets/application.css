@@ -174,12 +174,12 @@
  
 .contentA {
   float: left;
-  width: 200px;
+  width: 25%;
 }
 
 .contentB {
   float: right;
-  width: 70%;
+  width: 75%;
 }
 
 .contentC {
