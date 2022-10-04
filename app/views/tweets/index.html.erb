@@ -47,12 +47,12 @@
         <div class="grid-item2 grid-item25"></div>
     </div>
     
-    <div class="edit">
+    
         <col><%= link_to '削除', tweet_path(t.id), method: :delete %></col>
         <col><%= link_to '編集', edit_tweet_path(t.id) %></col>
         <col><%= link_to '詳細', tweet_path(t.id) %></col>
     
-    </div>
+    
     
 </div>
 <% end %>
