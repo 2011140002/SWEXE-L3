@@ -30,7 +30,7 @@
     padding: 5px;
 }
  
-.tweet.edit{
+.tweet .edit{
     float: right;
 } 
 
