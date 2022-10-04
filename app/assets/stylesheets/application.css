@@ -29,7 +29,7 @@
 }
 
 .account{
-    line-height: 50px;
+    position: absolute;
 }
 
 .message {
