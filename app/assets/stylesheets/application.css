@@ -165,6 +165,18 @@
 	grid-row: 1 ;
 	grid-column: 3;
 }
+.grid-item34 {
+	grid-row: 1 ;
+	grid-column: 4;
+}
+.grid-item35 {
+	grid-row: 1 ;
+	grid-column: 5;
+}
+.grid-item36 {
+	grid-row: 1 ;
+	grid-column: 6;
+}
 
 .grid-container3 {
 	display: grid;
