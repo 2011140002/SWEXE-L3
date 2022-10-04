@@ -22,6 +22,11 @@
     outline: none;
     border: solid 1px #dcdcdc;
   }
+  
+  .image_form {
+    margin: 5px; 
+    margin-left: 30px;
+  }
  
  .btn {
   display: inline-block;

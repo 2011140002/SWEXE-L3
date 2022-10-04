@@ -22,7 +22,7 @@
     <%= form_for @tweet, url: {action: :update} do |t| %>
 
         <%= t.text_field :message , class: "text_form"%><br>
-        <%= t.file_field :image %><br><br>
+        <%= t.file_field :image , class: "image_form"%><br><br>
         <%= link_to '戻る', root_path, {method: :get, class: "btn"} %>
 
         <%= t.submit '決定' ,class: "btn" %>
