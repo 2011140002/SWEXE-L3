@@ -7,7 +7,9 @@
 <% end %>
 
 <% @tweets.each do |t| %>
-
+<div class="image_circle">
+    <img src="tokage_green.png">
+</div>
 <%= t.message %><br>
 <% if t.image != nil %>
 <%= image_tag "/get_image/#{t.id}", :size => '70x70' %><br>
