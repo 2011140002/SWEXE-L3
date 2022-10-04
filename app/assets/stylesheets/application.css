@@ -37,6 +37,18 @@
   text-decoration-line: none;
   font-size: 15px;
 }
+
+.btn_show {
+  display: inline-block;
+  background: #dcdcdc; /* 背景色 */
+  color: black; /* 文字色 */
+  padding: 7px 13px; /* 上下の余白、左右の余白 */
+  text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+  border-radius: 30px; /* 角を丸くする */
+  border: none;
+  text-decoration-line: none;
+  font-size: 12px;
+}
  
  .sidebar{
      padding: 15px;
@@ -63,36 +75,6 @@
     float: right;
 } 
 
- 
-.buttonhome {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 100px;
-    padding: 6px 25px;
-    background: #dcdcdc;
-    color: black;
-    transition: 0.3s ease-in-out;
-    font-weight: 500;
-    border-radius: 100px;
-    text-decoration: none;
-    
-}
-.buttonshow {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 30px;
-    padding: 6px 25px;
-    background: #dcdcdc;
-    color: black;
-    transition: 0.3s ease-in-out;
-    font-weight: 500;
-    border-radius: 100px;
-    
-}
 
  .grid-item {
 	font-size: 13px;
