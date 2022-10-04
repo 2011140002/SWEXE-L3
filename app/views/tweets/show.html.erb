@@ -4,12 +4,12 @@
         <col>名前</col>
         <col>@username</col>
         <col>・</col>
-        <col><%= l t.tdate , format: :short %></col>
+        <col><%= l @tweet.tdate , format: :short %></col>
     </div>
         
-            <div class="message"><%= t.message %></div>
-            <% if t.image != nil %>
-                <%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
+            <div class="message"><%= @tweet.message %></div>
+            <% if @tweet.image != nil %>
+                <%= image_tag "/get_image/#{@tweet.id}", :size => '300x300' %><br>
             <% end %>
 
             <div class="grid-container2">
@@ -21,7 +21,7 @@
                     <%= image_tag "ハート.png", :size => '20x20' %></div>
                 <div class="grid-item2 grid-item24">
                     <div class="buttonshow">
-                        <%= link_to '詳細', tweet_path(t.id) %>
+                        <%= link_to '詳細', tweet_path(@tweet.id) %>
                     </div>
                 </div>
                 <div class="grid-item2 grid-item25"></div>
@@ -30,7 +30,7 @@
 
 </div>
 
-div class="contentC">
+<div class="contentC">
         <div class="image_border">
             <div class="image_circle"></div>
         </div>
