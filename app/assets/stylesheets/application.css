@@ -13,6 +13,16 @@
  *= require_tree .
  *= require_self
  */
+ 
+ .btn {
+  display: inline-block;
+  background: salmon; /* 背景色 */
+  color: #fff; /* 文字色 */
+  padding: 16px 40px; /* 上下の余白、左右の余白 */
+  text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+  border-radius: 30px; /* 角を丸くする */
+}
+ 
  .sidebar{
      padding: 15px;
      
