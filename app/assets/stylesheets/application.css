@@ -41,8 +41,7 @@
 }
 .grid-container {
 	display: grid;
-	grid-template-rows: 25px 25px 25px 25px;
-	grid-template-columns: 120px 120px 120px 120px 120px;
+	
 	
 	/*--以下装飾--*/
 	background-color: #ffffff;
