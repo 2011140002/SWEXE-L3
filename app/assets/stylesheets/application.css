@@ -26,6 +26,21 @@
     padding: 10px;
 }
  
+.buttonhome a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+
  .grid-item {
 	font-size: 13px;
 	font-weight: bold;
