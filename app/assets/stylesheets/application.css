@@ -83,11 +83,11 @@
 
 .contentC {
   float: left;
-  width: 10%;
+  
   padding: 5px;
 }
 
 .contentD {
   float: right;
-  width: 90%;
+  width: 80%;
 }
