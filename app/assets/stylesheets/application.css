@@ -27,7 +27,7 @@
 }
  
 .buttonhome {
-    position: relative;
+    position: left;
     display: flex;
     justify-content: center;
     align-items: center;
