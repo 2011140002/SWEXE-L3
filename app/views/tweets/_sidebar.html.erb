@@ -10,6 +10,6 @@
     <div><%= image_tag "アイコン.png", :size => '20x20' %>　 プロフィール</div>
     <div><%= image_tag "三点リーダー.png", :size => '20x20' %>　 もっと見る</div>
     <div class="buttontweet">
-        <a href='<% new_tweet_path %>'>ツイートする</a>
+        <%= link_to 'ツイートする', new_tweet_path %>
     </div>
 </div>
