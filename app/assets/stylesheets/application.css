@@ -25,19 +25,19 @@
 }
 .grid-itemA {
 	grid-row: 1 / 4;
-	grid-column: 1/4;
+	grid-column: 1 / 4;
 }
 .grid-itemB {
 	grid-row: 2 / 4;
-	grid-column: 2/4;
+	grid-column: 2 / 4;
 }
 .grid-itemC {
 	grid-row: 3 / 4;
-	grid-column: 3/4;
+	grid-column: 3 / 4;
 }
 .grid-itemD {
 	grid-row: 4 / 4;
-	grid-column: 4/4;
+	grid-column: 4 / 4;
 }
 .grid-container {
 	display: grid;
