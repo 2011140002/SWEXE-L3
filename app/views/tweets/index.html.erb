@@ -26,36 +26,37 @@
 
 
 
-    <div class="tweet">
-        <div class="message"><%= t.message %></div>
-        <% if t.image != nil %>
-            <%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
-        <% end %>
+        <div class="tweet">
+            <div class="message"><%= t.message %></div>
+                <% if t.image != nil %>
+                    <%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
+                <% end %>
     
     
     <!--(<% (Time.current - t.tdate).floor / 60 %>分前)-->
     <!--<%= link_to '削除', tweet_path(t.id), method: :delete %>-->
     <!--<%= link_to '編集', edit_tweet_path(t.id) %>-->
     <!--<%= link_to '詳細', tweet_path(t.id) %>-->
-        <div class="grid-container2">
-            <div class="grid-item2 grid-item21">
-                <%= image_tag "吹き出し.png", :size => '20x20' %></div>
-            <div class="grid-item2 grid-item22">
-                <%= image_tag "リツイート.png", :size => '20x20' %></div>
-            <div class="grid-item2 grid-item23">
-                <%= image_tag "ハート.png", :size => '20x20' %></div>
-            <div class="grid-item2 grid-item24"></div>
-            <div class="grid-item2 grid-item25">
-                <div class="buttonshow">
-                    <%= link_to '詳細', tweet_path(t.id) %>
+                <div class="grid-container2">
+                    <div class="grid-item2 grid-item21">
+                        <%= image_tag "吹き出し.png", :size => '20x20' %></div>
+                    <div class="grid-item2 grid-item22">
+                        <%= image_tag "リツイート.png", :size => '20x20' %></div>
+                    <div class="grid-item2 grid-item23">
+                        <%= image_tag "ハート.png", :size => '20x20' %></div>
+                    <div class="grid-item2 grid-item24"></div>
+                    <div class="grid-item2 grid-item25">
+                        <div class="buttonshow">
+                            <%= link_to '詳細', tweet_path(t.id) %>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
     
     
         
-    </div>   
+            </div>   
     
+        </div>
     </div>
     
 </div>
