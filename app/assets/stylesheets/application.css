@@ -28,7 +28,9 @@
     padding-bottom: 10px;
 }
 
-
+.account{
+    line-height: 50px;
+}
 
 .message {
     padding: 5px;
