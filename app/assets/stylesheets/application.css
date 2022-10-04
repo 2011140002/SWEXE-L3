@@ -18,9 +18,8 @@
      
  }
  .sidebar div{
-     position: relative;
+     padding: 10px;
      display: flex;
-     justify-content: center;
      margin: 0 auto;
      padding: 6px 25px;
      
