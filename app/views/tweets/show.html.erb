@@ -19,38 +19,14 @@
                     <%= image_tag "リツイート.png", :size => '20x20' %></div>
                 <div class="grid-item2 grid-item23">
                     <%= image_tag "ハート.png", :size => '20x20' %></div>
-                <div class="grid-item2 grid-item24">
-                    <div class="buttonshow">
-                        <%= link_to '詳細', tweet_path(@tweet.id) %>
-                    </div>
-                </div>
+                <div class="grid-item2 grid-item24"></div>
                 <div class="grid-item2 grid-item25"></div>
             </div>
+            <%= link_to '戻る', root_path %>
+            <%= link_to '編集', edit_tweet_path(@tweet.id) %>
+            <%= link_to '削除', tweet_path(@tweet.id), method: :delete %>
         
 
 </div>
 
-<div class="contentC">
-        <div class="image_border">
-            <div class="image_circle"></div>
-        </div>
-    </div>
-    <div>
-        <col>名前</col>
-        <col>@ユーザー名</col>
-        <col>・</col>
-        <col><%= l @tweet.tdate , format: :short %></col>
-        
-    
-    </div>
 
-<br><%= @tweet.message %><br>
-<%= image_tag "/get_image/#{@tweet.id}", :size => '300x300' %><br>
-<br>
-
-投稿日時：<%= l @tweet.tdate, format: :short %><br>
-
-<br>
-<%= link_to '戻る', root_path %>
-<%= link_to '編集', edit_tweet_path(@tweet.id) %>
-<%= link_to '削除', tweet_path(@tweet.id), method: :delete %>
