@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+ 
+ 
+.contentA {
+  float: left;
+  width: 30%;
+}
+
+.contentB {
+  float: right;
+}
