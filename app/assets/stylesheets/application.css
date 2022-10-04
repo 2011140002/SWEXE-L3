@@ -41,6 +41,21 @@
     border-radius: 100px;
     
 }
+.buttontweet {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 6px 25px;
+    background: #6bb6ff;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border-radius: 100px;
+    
+}
 
  .grid-item {
 	font-size: 13px;
