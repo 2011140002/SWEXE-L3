@@ -17,9 +17,9 @@
      height: 50px;
      text-align: center;
  }
- col.header_menu{
-     padding-left: 5%;
-     padding-right: 5%;
+ col .header_menu{
+     padding-left: 10%;
+     padding-right: 10%;
  }
  
  .image_border {
