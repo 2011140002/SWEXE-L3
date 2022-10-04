@@ -8,37 +8,37 @@
 
 <% @tweets.each do |t| %>
 <div class="tweet">
-<div class="contentC">
-    <div class="image_border">
-        <div class="image_circle"></div>
+    <div class="contentC">
+        <div class="image_border">
+            <div class="image_circle"></div>
+        </div>
     </div>
-</div>
-<div class="contentD">
-    <col>名前</col>
-    <col>ユーザー名</col>
-    <col>・</col>
-    <col><%= l t.tdate , format: :short %></col>
+    <div class="contentD">
+        <col>名前</col>
+        <col>ユーザー名</col>
+        <col>・</col>
+        <col><%= l t.tdate , format: :short %></col>
     
-</div>
+    </div>
 
 
 
 
-<%= t.message %><br>
-<% if t.image != nil %>
-<%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
-<% end %>
-<!--(<% (Time.current - t.tdate).floor / 60 %>分前)-->
-<!--<%= link_to '削除', tweet_path(t.id), method: :delete %>-->
-<!--<%= link_to '編集', edit_tweet_path(t.id) %>-->
-<!--<%= link_to '詳細', tweet_path(t.id) %>-->
-<div class="grid-container2">
-    <div class="grid-item2 grid-item21">〇</div>
-    <div class="grid-item2 grid-item22">〇</div>
-    <div class="grid-item2 grid-item23">〇</div>
-    <div class="grid-item2 grid-item24">〇</div>
-    <div class="grid-item2 grid-item25">〇</div>
-</div>
+    <%= t.message %><br>
+    <% if t.image != nil %>
+    <%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
+    <% end %>
+    <!--(<% (Time.current - t.tdate).floor / 60 %>分前)-->
+    <!--<%= link_to '削除', tweet_path(t.id), method: :delete %>-->
+    <!--<%= link_to '編集', edit_tweet_path(t.id) %>-->
+    <!--<%= link_to '詳細', tweet_path(t.id) %>-->
+    <div class="grid-container2">
+        <div class="grid-item2 grid-item21">〇</div>
+        <div class="grid-item2 grid-item22">〇</div>
+        <div class="grid-item2 grid-item23">〇</div>
+        <div class="grid-item2 grid-item24">〇</div>
+        <div class="grid-item2 grid-item25">〇</div>
+    </div>
 </div>
 <% end %>
 
