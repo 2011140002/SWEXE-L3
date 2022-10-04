@@ -29,7 +29,7 @@
 .btn_home {
   display: inline-block;
   background: #dcdcdc; /* 背景色 */
-  color: #fff; /* 文字色 */
+  color: black; /* 文字色 */
   padding: 10px 16px; /* 上下の余白、左右の余白 */
   text-decoration: none; /* デフォルトで入るリンクの下線を消す */
   border-radius: 30px; /* 角を丸くする */
