@@ -23,6 +23,7 @@
   border-radius: 30px; /* 角を丸くする */
   border: none;
   text-decoration-line: none;
+  font-size: 10px;
 }
  
  .sidebar{
