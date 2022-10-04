@@ -31,21 +31,21 @@
       <td>
         <div>
           <%= link_to(root_path) do %>
-            <span class="btn_show">戻る</span>
+            <span class="btn_edit">戻る</span>
           <% end %>
         </div>
       </td>
       <td>
         <div>
           <%= link_to(edit_tweet_path(@tweet.id)) do %>
-            <span class="btn_show">編集</span>
+            <span class="btn_edit">編集</span>
           <% end %>
         </div>
       </td>
       <td>
         <div>
           <%= link_to(tweet_path(@tweet.id), method: :delete) do %>
-            <span class="btn_show">削除</span>
+            <span class="btn_edit">削除</span>
           <% end %>
         </div>
       </td>
