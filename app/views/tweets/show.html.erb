@@ -26,31 +26,31 @@
 
 </div>
 <table>
-    <tbody>
-        <tr>
-            <td>
-                <div>
-                    <%= link_to(root_path) do %>
-                        <span class="btn_show">戻る</span>
-                    <% end %>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <%= link_to(edit_tweet_path(@tweet.id)) do %>
-                        <span class="btn_show">編集</span>
-                    <% end %>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <%= link_to(tweet_path(@tweet.id), method: :delete) do %>
-                        <span class="btn_show">削除</span>
-                    <% end %>
-                </div>
-            </td>
-        </tr>
-    </tbody>
+  <tbody>
+    <tr>
+      <td>
+        <div>
+          <%= link_to(root_path) do %>
+            <span class="btn_show">戻る</span>
+          <% end %>
+        </div>
+      </td>
+      <td>
+        <div>
+          <%= link_to(edit_tweet_path(@tweet.id)) do %>
+            <span class="btn_show">編集</span>
+          <% end %>
+        </div>
+      </td>
+      <td>
+        <div>
+          <%= link_to(tweet_path(@tweet.id), method: :delete) do %>
+            <span class="btn_show">削除</span>
+          <% end %>
+        </div>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
     
