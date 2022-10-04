@@ -23,7 +23,8 @@
  
  .tweet{
     border: solid 1px #dcdcdc;
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .message{
