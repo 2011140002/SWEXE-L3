@@ -26,6 +26,10 @@
     padding: 10px;
 }
  
+#name{
+    font-weight: bold;
+}
+ 
 .buttonhome {
     position: relative;
     display: flex;
