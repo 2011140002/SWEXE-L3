@@ -32,8 +32,13 @@
         <% end %>
     </col>
     <col>
-        <%= link_to(root_path) do %>
-            <span class="btn_show">戻る</span>
+        <%= link_to(edit_tweet_path(@tweet.id)) do %>
+            <span class="btn_show">  編集  </span>
+        <% end %>
+    </col>
+    <col>
+        <%= link_to(tweet_path(@tweet.id), method: :delete) do %>
+            <span class="btn_show">  削除  </span>
         <% end %>
     </col>
 </div>
