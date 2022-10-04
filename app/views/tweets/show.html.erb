@@ -22,6 +22,16 @@
                 <div class="grid-item2 grid-item24"></div>
                 <div class="grid-item2 grid-item25"></div>
             </div>
+            <div class="grid-container2">
+                <div class="grid-item2 grid-item21">
+                    <<%= link_to '戻る', root_path %></div>
+                <div class="grid-item2 grid-item22">
+                    <%= link_to '編集', edit_tweet_path(@tweet.id) %></div>
+                <div class="grid-item2 grid-item23">
+                    <%= link_to '削除', tweet_path(@tweet.id), method: :delete %></div>
+                <div class="grid-item2 grid-item24"></div>
+                <div class="grid-item2 grid-item25"></div>
+            </div>
             <%= link_to '戻る', root_path %>
             <%= link_to '編集', edit_tweet_path(@tweet.id) %>
             <%= link_to '削除', tweet_path(@tweet.id), method: :delete %>
