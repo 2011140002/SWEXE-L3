@@ -42,10 +42,6 @@
 .grid-container {
 	display: grid;
 	
-	
-	/*--以下装飾--*/
-	background-color: #ffffff;
-	border: solid 5px #fb6158;
 }
  .header {
      height: 50px;
