@@ -7,8 +7,8 @@
 <% end %>
 
 <% @tweets.each do |t| %>
+
 <div class="tweets">
-    
     <div class="contentC">
         <div class="image_border">
             <div class="image_circle">
@@ -23,7 +23,7 @@
         <col>・</col>
         <col><%= l t.tdate , format: :short %></col>
 
-        <div class="tweet">
+        
             <div class="message"><%= t.message %></div>
             <% if t.image != nil %>
                 <%= image_tag "/get_image/#{t.id}", :size => '300x300' %><br>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        
     </div>
 </div>
 <% end %>

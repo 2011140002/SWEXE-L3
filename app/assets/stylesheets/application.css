@@ -24,7 +24,8 @@
  
 .tweets {
     border: solid 1px #dcdcdc;
-
+    padding: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -182,13 +183,13 @@
   width: 75%;
 }
 
-.contentC {
+.tweets.contentC {
   float: left;
   
   padding: 10px;
 }
 
-.contentD {
+.tweets.contentD {
   float: right;
   width: 90%;
 }
