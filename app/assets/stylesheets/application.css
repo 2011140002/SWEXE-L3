@@ -76,6 +76,7 @@
     transition: 0.3s ease-in-out;
     font-weight: 500;
     border-radius: 100px;
+    text-decoration: none;
     
 }
 .buttonshow {
