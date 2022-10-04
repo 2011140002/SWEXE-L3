@@ -110,6 +110,7 @@
 	grid-column: 5 / 6;
 }
 .grid-container {
+    padding: 5px;
 	display: grid;
 	border: solid 1px #dcdcdc;
 	
