@@ -15,7 +15,7 @@
  */
  .image_border {
   width: 50px;
-  padding: 5px;
+  padding: 2px;
   border-radius:50%;
   background: linear-gradient(to right bottom, #c71585, #ffc0cb);
 }
