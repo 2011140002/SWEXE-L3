@@ -14,13 +14,13 @@
  *= require_self
  */
  .image_border {
-  width: 100px;
+  width: 50px;
   padding: 5px;
   border-radius:50%;
   background: linear-gradient(to right bottom, #c71585, #ffc0cb);
 }
  .image_circle {
-  height: 50px;
+  height: 100px;
   border-radius:50%;
   background-image: url("yume86.png");
   background-position: 54% 36%;
