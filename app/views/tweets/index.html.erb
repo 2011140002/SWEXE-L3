@@ -9,16 +9,18 @@
 <% @tweets.each do |t| %>
 
 <div class="tweets">
-    <div class="contentC">
+    <div>
+        <div class="contentC">
         <div class="image_border">
             <div class="image_circle">
-                
-            </div>
-        </div>
-        <col>名前</col>
+                <col>名前</col>
         <col>@ユーザー名</col>
         <col>・</col>
         <col><%= l t.tdate , format: :short %></col>
+            </div>
+        </div>
+        
+        
     </div>
     
     <div class="contentD">
