@@ -24,7 +24,7 @@
 	box-sizing: border-box;
 }
 .grid-itemA {
-	grid-row: 1 / 4;
+	grid-row: 1;
 	grid-column: 1 / 2;
 }
 .grid-itemB {
